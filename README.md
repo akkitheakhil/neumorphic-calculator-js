@@ -1,8 +1,8 @@
 <p align="center">
-  <h1 align="center">html-scss-js</h1>
+  <h1 align="center">neumorphic-calculator-js</h1>
 
   <p align="center">
-   A simple boilerplate code for HTML, CSS and JavaScript.
+  A simple calculator build with JavaScript using neumorphism design.
 </p>
 
 ### Built With
@@ -37,6 +37,8 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    npm start
    ```
+
+#### Template/boilerplate code used -  [https://github.com/akkitheakhil/create-html-scss-js/](https://github.com/akkitheakhil/create-html-scss-js/)
 
 <!-- CONTACT -->
 ## Contact
