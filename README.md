@@ -5,6 +5,9 @@
   A simple calculator build with JavaScript using neumorphism design.
 </p>
 
+## Screenshot 
+![Screenshot](https://i.ibb.co/sRwbgRH/screenshot.gif "Calculator")
+
 ### Built With
 
 * HTML
