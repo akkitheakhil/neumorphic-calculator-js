@@ -26,3 +26,14 @@ body {
     box-shadow: $boxshadow-neumo-light;
   }
 }
+
+@media only screen and (max-width: 600px) {
+
+  body {
+    width: $w-full;
+    .container {
+      width: $w-full;
+    }
+  }
+
+}
