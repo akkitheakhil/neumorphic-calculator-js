@@ -1,0 +1,63 @@
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: $h-full;
+  width: $w-full;
+
+  .screen {
+    width: 90%;
+    height: 25%;
+    background: $light-color;
+    border-radius: 20px;
+    box-shadow: $boxshadow-neumo-light-inset;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+
+    .history {
+        width: 100%;
+        font-size: 14px;
+        color: $dark-color-accent;
+        text-align: right;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .output {
+        width: 100%;
+        font-size: 28px;
+        font-weight: 600;
+        text-align: right;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+  }
+  
+  .button-grids {
+    display: grid;
+    width: $w-full;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    padding: 20px 0;
+    .button {
+      margin: 10px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      width: 50px;
+      font-weight: 600;
+      background: $light-color;
+      border-radius: 10px;
+      box-shadow: $boxshadow-neumo-light;
+      cursor: pointer;
+      &.operator, &.result, &.clear, &.backspace {
+        background: $dark-color;
+        color: $light-color-secondary;
+      }
+    }
+  }
+}

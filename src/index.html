@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple neumorphic calculator</title> 
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator-container">
+        <div class="screen">
+            <div id="history" class="history"></div>
+            <div id="output" class="output"></div>
+        </div>
+        <div class="button-grids">
+          <span class="button clear" id="c">C</span>
+          <span class="button backspace" id="ce">CE</span>
+          <span class="button operator" id="%">%</span>
+          <span class="button operator" id="/">&divide;</span>
+
+          <span class="button number" id="7">7</span>
+          <span class="button number" id="8">8</span>
+          <span class="button number" id="9">9</span>
+          <span class="button operator" id="*">X</span>
+
+          <span class="button number" id="4">4</span>
+          <span class="button number" id="5">5</span>
+          <span class="button number" id="6">6</span>
+          <span class="button operator" id="-">-</span>
+
+          <span class="button number" id="1">1</span>
+          <span class="button number" id="2">2</span>
+          <span class="button number" id="3">3</span>
+          <span class="button operator" id="+">+</span>
+
+          <span class="button number" id="00">00</span>
+          <span class="button number" id="0">0</span>
+          <span class="button number" id=".">&bull;</span>
+          <span class="button result" id="=">=</span>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;900&display=swap");
+
+$font-family: "Orbitron", sans-serif;
+
+$h-full: 100%;
+$h-screen: 100vh;
+
+$w-full: 100%;
+$w-screen: 100vw;
+
+$boxshadow-neumo-light: 8px 8px 12px 0 $light-color-secondary,
+  -8px -8px 12px 0 $white;
+
+$boxshadow-neumo-light-inset: inset 4px 4px 4px 0 $light-color-secondary,
+inset -4px -4px 4px 0 $white;

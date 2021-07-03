@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+}
+
+body {
+  background-color: $light-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: $h-screen;
+  min-width: 340px;
+  overflow: hidden;
+
+  .container {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100% - 10px);
+    margin: 10px;
+    background: $light-color;
+    border-radius: 20px;
+    box-shadow: $boxshadow-neumo-light;
+  }
+}
