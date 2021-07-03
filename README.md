@@ -8,6 +8,9 @@
 ## Screenshot 
 ![Screenshot](https://i.ibb.co/sRwbgRH/screenshot.gif "Calculator")
 
+[Screenshot](https://i.ibb.co/sRwbgRH/screenshot.gif "Calculator")
+
+
 ### Built With
 
 * HTML
