@@ -41,14 +41,22 @@ export default class Calculator {
 
     handleOperatorButton(operator) {
         const val = this.resultDisplay.innerHTML;
-    
-        if (val === "") {
+        const historyLen = this.history.length;
+        
+        if (val === "" && !historyLen) {
+            return;
+        }
+
+        const lastEle = this.history[historyLen - 1];
+        
+        if (lastEle?.type === "operator") {
+            this.history[historyLen - 1].value = operator;
+            this.setHistoryDisplayData();
             return;
         }
 
         this.addValueToHistory(val);
         this.addOperatorToHistory(operator);
-
     }
 
     handleResult() {
