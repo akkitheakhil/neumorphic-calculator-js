@@ -1,7 +1,7 @@
 {
-  "name": "html-scss-js",
+  "name": "neumorphic-calculator-js",
   "version": "1.0.0",
-  "description": "A boilerplate code for HTML SCSS and JavaScript",
+  "description": "A simple calculator build with JavaScript using neumorphism design",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --watch",
