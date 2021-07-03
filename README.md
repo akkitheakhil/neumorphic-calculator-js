@@ -5,6 +5,12 @@
   A simple calculator build with JavaScript using neumorphism design.
 </p>
 
+## Screenshot 
+![Screenshot](https://i.ibb.co/Qr9ZWSG/Calc-Screenshot.png "Calculator")
+
+[Screenshot](https://i.ibb.co/sRwbgRH/screenshot.gif "Calculator")
+
+
 ### Built With
 
 * HTML
@@ -27,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/akkitheakhil/html-scss-js.git
+   git clone https://github.com/akkitheakhil/neumorphic-calculator-js.git
    ```
 2. Install NPM packages
    ```sh
@@ -45,4 +51,4 @@ To get a local copy up and running follow these simple example steps.
 
 Akhil Padmanabhan - speaktoakhilp@gmail.com
 
-Project Link: [https://github.com/akkitheakhil/html-scss-js/](https://github.com/akkitheakhil/Angular-Snake-Game/)
+Project Link: [https://github.com/akkitheakhil/neumorphic-calculator-js/](https://github.com/akkitheakhil/neumorphic-calculator-js/)
