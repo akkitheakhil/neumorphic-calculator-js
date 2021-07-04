@@ -11,7 +11,7 @@
 [Screenshot](https://i.ibb.co/sRwbgRH/screenshot.gif "Calculator")
 
 ### Gh-Page Hosted app
-![App](https://akkitheakhil.github.io/neumorphic-calculator-js/)
+[App](https://akkitheakhil.github.io/neumorphic-calculator-js/)
 
 ### Built With
 
